@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Yahoo Test Automation Suite">
+
+
+	<test name="Yahoo App Test cases ">
+		<parameter name="url" value="https://login.yahoo.com/"></parameter>
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="emailId" value="Test@yahoo.com"></parameter>
+		<classes>
+			<class name="com.parameterizedTest.ParameterTest" />
+		</classes>
+	</test>
+</suite>
